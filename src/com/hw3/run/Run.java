@@ -30,7 +30,7 @@ public class Run {
 		
 		boolean equal = product1.equals(clonedProduct);
 		boolean hashEqual = product1.hashCode() == clonedProduct.hashCode();
-		System.out.println("첫 번째 객체와 복제 객체가 주소 값이 일치하는가?" + equal);
-		System.out.println("첫 번째 객체와 복제 객체의 필드 값이 일지하는가?" + hashEqual);
+		System.out.println("첫 번째 객체와 복제 객체가 주소 값이 일치하는가? " + equal);
+		System.out.println("첫 번째 객체와 복제 객체의 필드 값이 일지하는가? " + hashEqual);
 	}
 }
