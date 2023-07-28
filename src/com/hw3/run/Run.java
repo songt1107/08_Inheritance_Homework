@@ -22,7 +22,7 @@ public class Run {
 		System.out.println("두 번째 객체의 해쉬코드 값 : " + product2.hashCode());
 		
 		System.out.println("===========================================");
-		System.out.println("복제한 객체의 값 : " + product1.clone());
+		System.out.println("복제한 객체의 값 : " + product1.clone().toString());
 		
 		System.out.println("===========================================");
 
